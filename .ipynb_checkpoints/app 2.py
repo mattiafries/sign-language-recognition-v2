@@ -9,7 +9,7 @@ import os
 import shutil
 import sys
 from pathlib import Path
-
+#/opt/homebrew/bin/python3.10 '.ipynb_checkpoints/app 2.py'
 
 def ensure_compatible_python():
     """Restart with the installed Python 3.10 when the IDE uses Python 3.14."""
@@ -56,7 +56,7 @@ KEYPOINT_LABEL_PATH = (
     PROJECT_ROOT
     / "model"
     / "keypoint_classifier"
-    / "keypoint_classifier_label.csv"
+    / "keypoint_classifier_label 2.csv"
 )
 KEYPOINT_LOG_PATH = (
     PROJECT_ROOT / "model" / "keypoint_classifier" / "keypoint.csv"
